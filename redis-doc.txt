@@ -1,0 +1,23 @@
+#install redis server
+sudo apt install redis-server
+
+
+# to restart server
+sudo systemctl restart redis.service
+
+# to run cli in command line
+redis-cli
+
+# edit conf file
+sudo nano /etc/redis/redis.conf
+
+# bind to localhost if not set
+sudo nano /etc/redis/redis.conf
+bind 127.0.0.1 ::1
+#restart server
+
+#Install redis library for php
+sudo apt update
+sudo apt install php-redis
+
+
